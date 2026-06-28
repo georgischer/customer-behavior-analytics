@@ -1,9 +1,18 @@
-# customer-behavior-analytics
-End-to-end data analytics project using SQL for data cleaning/transformation and Power BI for interactive visualization.
+# Customer Behavior & Marketing Analytics 📊
 
-Customer Behavior & Marketing Campaign Analytics
-Data Preparation (SQL): Established a staging environment, removed duplicates using ROW_NUMBER(), and handled NULL values in the Income column to ensure data integrity.
-Data Transformation: Unified categorical data (Education, Marital Status) from one-hot encoded columns into readable formats using CASE statements.
-Feature Engineering: Calculated key performance indicators such as Total_Spending and Total_Children directly in SQL.
-Visualization (Power BI): Developed an interactive dashboard featuring DAX measures (Response Rate, Total Customers). Performed correlation analysis via Scatter Charts to visualize the relationship between Income and Spending.
-<img src="Screenshot%202026-06-28%20212936.png" width="100%">
+## Project Overview
+This project presents an end-to-end data analytics solution, focusing on customer spending patterns and marketing campaign effectiveness. By leveraging SQL for robust data processing and Power BI for advanced visualization, I transformed raw data into actionable business insights.
+
+## Technical Workflow
+- **Data Preparation (SQL):** Developed a staging environment to preserve raw data. Performed rigorous cleaning, including duplicate removal using `ROW_NUMBER()` and handling missing values (NULLs).
+- **Data Transformation:** Unified categorical variables (Education, Marital Status) from one-hot encoded formats into readable attributes using complex `CASE` statements.
+- **Feature Engineering:** Calculated key business metrics such as `Total_Spending` and `Total_Children` directly within the database layer to optimize report performance.
+- **Data Visualization (Power BI):** Designed an interactive dashboard utilizing DAX measures for KPIs like Response Rate (15.15%) and Average Spend.
+
+## Key Insights
+- **Income Correlation:** A strong positive correlation was identified between household income and total spending, visualized through a scatter plot.
+- **Demographic Analysis:** Customers with higher education levels (Graduation/PhD) represent the highest spending segment.
+- **Campaign Performance:** The marketing campaign achieved a significant conversion rate of 15.15%.
+
+## Preview
+<img src="Screenshot 2026-06-28 212936.png" width="100%">
